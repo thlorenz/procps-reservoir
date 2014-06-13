@@ -12,14 +12,15 @@
   },
   "homepage": "https://github.com/thlorenz/procps-reservoir",
   "dependencies": {
-    "level": "^0.18.0",
-    "procps-ticker": "^0.1.0",
-    "through2": "^0.5.1",
-    "timestreamdb": "^0.1.0"
+    "level": "~0.18.0",
+    "procps-ticker": "~0.2.0",
+    "through2": "~0.5.1",
+    "timestreamdb": "~0.1.0"
   },
   "devDependencies": {
-    "level-dump": "^0.4.0",
-    "memdown": "^0.10.1",
+    "inspect-stream": "~0.1.0",
+    "level-dump": "~0.4.0",
+    "memdown": "~0.10.1",
     "tap": "~0.4.3"
   },
   "keywords": [],
