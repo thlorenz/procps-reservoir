@@ -1,0 +1,38 @@
+{
+  "name": "procps-reservoir",
+  "version": "0.0.0",
+  "description": "Stores procps data inside leveldb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/procps-reservoir.git"
+  },
+  "homepage": "https://github.com/thlorenz/procps-reservoir",
+  "dependencies": {
+    "level": "^0.18.0",
+    "procps-ticker": "^0.1.0",
+    "through2": "^0.5.1",
+    "timestreamdb": "^0.1.0"
+  },
+  "devDependencies": {
+    "level-dump": "^0.4.0",
+    "memdown": "^0.10.1",
+    "tap": "~0.4.3"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/procps-reservoir/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.8"
+  }
+}
